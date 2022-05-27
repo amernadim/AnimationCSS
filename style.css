@@ -1,0 +1,112 @@
+section{
+    display: flex;
+}
+main {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.animation {
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+  
+}
+.demo {
+    background-color: aliceblue;
+    height: 50px;
+    width: 50px;
+    transition-property: all;
+
+}
+/*  animation one */ 
+.demo1 {
+    transition-duration: 1s;
+
+}
+.animation1:hover > .demo1 {
+    transform: rotateX(360deg);
+    width: 100%;
+}
+
+/* animation two */
+
+.demo2 {
+    transition-duration: 2s;
+    transition-delay: 1s;
+
+}
+.animation2:hover > .demo2 {
+    transform: skewY(20deg);
+    height: 90%;
+}
+
+/* animation three */
+
+.demo3 {
+    transition-duration: 2s;
+
+}
+.animation3:hover > .demo3 {
+    transform: scaleY(1);
+    height: 90%;
+    width: 100%;
+}
+
+/* animation four */
+
+
+.demo4 {
+    transition-duration: 3s;
+
+}
+.animation4:hover > .demo4 {
+    transform: scaleX(1) ;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* animation five */
+.demo5 {
+    transition-duration: 2s;
+
+}
+.animation5:hover > .demo5 {
+    transform: rotateY(360deg);
+    width: 100%;
+}
+
+
+/* animation six */
+.demo6 {
+    transition-duration: 3s;
+
+}
+.animation6:hover > .demo6 {
+    transform: skewX(5deg);
+    height: 90%;
+}
+
+/* animation seven */
+.demo7 {
+    transition-duration: 2s;
+
+}
+.animation7:hover > .demo7 {
+    transform: scaleY(1.5);
+    height: 100%;
+    width: 100%;
+}
+/* animation eight */
+.demo8 {
+    transition-duration: 3s;
+    transition-delay: 1s;
+
+}
+.animation8:hover > .demo8 {
+    transform: scale(1) ;
+    height: 90%;
+}
